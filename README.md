@@ -1,1 +1,1 @@
-# OpenSees_LQI_Control
+# OpenSeesPy_LQI_Control
