@@ -9,7 +9,7 @@ This project simulates a Single Inverted Pendulum mounted on a frictional cart s
 
 Key Highlights:
 
-Physics Engine: Utilizes OpenSeesPy for nonlinear transient analysis. Control Algorithm: Implements a Linear Quadratic Integral (LQI) controller to ensure zero steady-state error despite non-linear friction.
+Physics Engine: Utilizes OpenSeesPy for nonlinear transient analysis. Control Algorithm: Implements a Linear Quadratic Integral (LQI) controller to ensure zero steady-state error despite highly non-linear behavior friction.
 
 Real-Time Monitoring: A custom PyQt5 dashboard for dynamic parameter tuning and data visualization.
 
