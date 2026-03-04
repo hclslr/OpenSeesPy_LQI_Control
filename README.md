@@ -15,7 +15,7 @@ Real-Time Monitoring: A custom PyQt5 dashboard for dynamic parameter tuning and 
 
 Structural Insight: Real-time Force-Displacement (Hysteresis) plotting to monitor energy dissipation. 
 
-Installation & Setup to ensure portability and prevent common Matplotlib version errors, follow these steps: Clone the repository:Bash git clone https://github.com/hclslr/OpenSeesPy_LQI_Control.git
+Installation & Setup to ensure portability and prevent common Matplotlib version errors, follow these steps: Clone the repository: git clone https://github.com/hclslr/OpenSeesPy_LQI_Control.git
 cd OpenSeesPy_LQI_Control
 
 Install dependencies:pip install -r requirements.txt
