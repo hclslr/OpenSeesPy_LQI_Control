@@ -17,6 +17,6 @@ Control StrategyThe system manages five distinct states to achieve stability:Car
 
 Structural ModelingThe model is built with a singleFPBearing element in OpenSees, representing a frictional surface with a defined friction coefficient. The LQI controller dynamically calculates the required force ($u$) to counteract both gravity and frictional resistance.
 
-About the AuthorHuseyin Cilsalar, PhD Department of Civil Engineering, Yozgat Bozok University Expertise in Structural Dynamics, Seismic Dampers, and Mechatronics. Contact: huseyin.cilsalar@bozok.edu.tr
+About the AuthorHuseyin Cilsalar, PhD Department of Civil Engineering, Yozgat Bozok University. Contact: huseyin.cilsalar@bozok.edu.tr
 
 LicenseThis project is licensed under the MIT License.
