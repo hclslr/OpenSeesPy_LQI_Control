@@ -6,8 +6,8 @@ Key Highlights:
 
 Physics Engine: Utilizes OpenSeesPy for nonlinear transient analysis.Control Algorithm: Implements a Linear Quadratic Integral (LQI) controller to ensure zero steady-state error despite non-linear friction.
 
-Real-Time Monitoring: A custom PyQt5 dashboard for dynamic parameter tuning and data visualization.Structural Insight: Real-time Force-Displacement (Hysteresis) plotting to monitor energy dissipation. Installation & SetupTo ensure portability and prevent common Matplotlib version errors, follow these steps:Clone the repository:Bashgit clone https://github.com/hclslr/OpenSees_LQI_Control.git
-cd OpenSees_LQI_Control
+Real-Time Monitoring: A custom PyQt5 dashboard for dynamic parameter tuning and data visualization.Structural Insight: Real-time Force-Displacement (Hysteresis) plotting to monitor energy dissipation. Installation & SetupTo ensure portability and prevent common Matplotlib version errors, follow these steps:Clone the repository:Bashgit clone https://github.com/hclslr/OpenSeesPy_LQI_Control.git
+cd OpenSeesPy_LQI_Control
 
 Install dependencies:Bashpip install -r requirements.txt
 
