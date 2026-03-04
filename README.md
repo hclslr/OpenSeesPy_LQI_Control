@@ -26,6 +26,6 @@ Structural ModelingThe model is built with a singleFPBearing element in OpenSees
 
 About the AuthorHuseyin Cilsalar, PhD Department of Civil Engineering, Yozgat Bozok University. Contact: huseyin.cilsalar@bozok.edu.tr
 
-This project was inspired by the work of Portwood Digital on the Double Inverted Pendulum. 
+This project was inspired by the blog post of Portwood Digital on the Double Inverted Pendulum. 
 
 LicenseThis project is licensed under the MIT License.
