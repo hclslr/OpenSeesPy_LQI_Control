@@ -22,14 +22,16 @@ Install dependencies:pip install -r requirements.txt
 
 Technical Details
 
-Control StrategyThe system manages five distinct states to achieve stability: Cart Position & Velocity: ($x, \dot{x}$)Pendulum Angle & Angular Velocity: ($\theta, \dot{\theta}$)Integral of Position Error: This state is crucial for overcoming the "stick-slip" behavior of the Coulomb friction model used in the OpenSees simulation.
+Control StrategyThe system manages five distinct states to achieve stability: Cart Position & Velocity: ($x, \dot{x}$) Pendulum Angle & Angular Velocity: ($\theta, \dot{\theta}$) Integral of Position Error: This state is crucial for overcoming the "stick-slip" behavior of the Coulomb friction model used in the OpenSees simulation.
 
 Structural Modeling
 
 The model is built with a singleFPBearing element in OpenSees, representing a frictional surface with a defined friction coefficient. The LQI controller dynamically calculates the required force ($u$) to counteract both gravity and frictional resistance.
 
-About the AuthorHuseyin Cilsalar, PhD Department of Civil Engineering, Yozgat Bozok University. Contact: huseyin.cilsalar@bozok.edu.tr
+About the Author 
+
+Huseyin Cilsalar, PhD Department of Civil Engineering, Yozgat Bozok University. Contact: huseyin.cilsalar@bozok.edu.tr
 
 This project was inspired by the blog post of Portwood Digital on the Double Inverted Pendulum. 
 
-LicenseThis project is licensed under the MIT License.
+License: This project is licensed under the MIT License.
